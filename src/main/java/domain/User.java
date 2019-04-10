@@ -7,7 +7,6 @@ public class User {
     private int userID, dob;
     private ArrayList<Location> recentLocations;
 
-
     public int getUserID() {
         return userID;
     }
@@ -48,4 +47,5 @@ public class User {
         }
 
     }
+
 }

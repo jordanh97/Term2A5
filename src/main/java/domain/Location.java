@@ -29,8 +29,6 @@ public class Location {
 
     }
 
-
-
     public static class Builder{
 
         private String coords, locationID;
@@ -71,4 +69,5 @@ public class Location {
     public int hashCode() {
         return Objects.hash(locationID, coords, expires);
     }
+    
 }

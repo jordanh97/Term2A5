@@ -1,6 +1,5 @@
 package factory;
 
-
 import domain.Location;
 import util.Misc;
 
